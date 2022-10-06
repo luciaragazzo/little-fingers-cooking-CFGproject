@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+/* header bar */
+.top-bar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-image:url(/images/background\ light.jpg) ;
+    height: 70px;
+    align-items: center;
+}
+
+.logo-text {
+    flex: 1;
+    width: 100px;
+}
+
+.logo-text p {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(212, 5, 74);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.link-to-pages a { 
+    font-family: 'Dancing Script', cursive;
+    color: rgb(212, 5, 74);
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 40px;
+    
+}
+
+/* Picture with "How to make it fun" */
+.main-picture {
+    border: 0.5px gainsboro solid;
+    margin: 20px 0;
+    background-image: url(/images/header\ picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-picture h1 {
+    margin-top: 320px;
+    text-align: center; 
+}
+
+.main-picture p {
+    text-align: center; 
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Contents */
+.text-with-picture {
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+}
+
+.text-with-picture div {
+    flex-basis: 50%;
+}
+
+.paragraph-picture-1 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.paragraph-picture-1 img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.text-2 {
+    margin: 0 auto;
+    width: 700px;  
+}
+
+.paragraph-picture-2 {
+    margin-top: 30px;
+}
+
+.paragraph-picture-2 img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.text-3 {
+    margin-left: 20px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(/images/background\ light.jpg);
+}
+
+nav a {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.fa-facebook-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-instagram-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-twitter-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-envelope {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+/* responsive for iPhone */
+@media only screen and (max-width: 550px) {
+    
+    /* header bar */
+    .logo-text {
+        width: 100%;
+    }
+
+    .logo-text p {
+        font-size: 15px;
+        width: 50px;
+    }
+
+    .link-to-pages a { 
+        font-size: 15px;
+        padding: 0;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    /* Picture with "How to make it fun" */
+    .main-picture {
+        height: 100%;
+        background-image: url(/images/background\ light.jpg);
+    }
+
+    .main-picture h1 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    
+    .main-picture p {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 15px;
+    }
+
+    /* Contents */
+    .text-with-picture {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    .paragraph-picture-1 {
+        margin: 20px 0;
+    }
+    
+    .paragraph-picture-1 img {
+        width: 100%
+    }
+
+    .text-1 {
+        font-size: 15px;
+    }
+
+    .text-2 {
+        width: 80%;
+        font-size: 15px;  
+    }
+
+    .paragraph-picture-2 {
+        margin-top: 20px
+    }
+    
+    .paragraph-picture-2 img {
+        width: 100%;
+    }
+    
+    .text-3 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+
+/* Responsive for iPad */
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    
+    /* header bar */
+    .logo-text {
+        width: 100%;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    /* Picture with "How to make it fun" */
+    .main-picture {
+        height: 100%;
+        background-image: url(/images/background\ light.jpg);
+    }
+
+    .main-picture h1 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .main-picture p {
+        padding-bottom: 30px;
+        width: 80%;
+    }
+
+    /* contents */
+    .text-with-picture {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
+    .paragraph-picture-1 {
+        margin-top: 30px;
+    }
+
+    .paragraph-picture-1 img {
+        width: 100%;
+    }
+
+    .text-2 {
+        width: 90%;
+    }
+
+    .paragraph-picture-2 img {
+        width: 100%;
+    }
+    
+    .text-3 {
+        margin: 20px 0 0 0;
+    }
+
+    /* footer */
+    footer{
+        padding-top: 10px;
+    }
+} 
