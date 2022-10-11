@@ -35,7 +35,15 @@ body {
     font-weight: bold;
     text-decoration: none;
     padding: 0 40px;
-    
+}
+
+.link-to-pages a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+#page-logo:hover {
+    opacity: 0.6;
 }
 
 /* Picture with "How to make it fun" */
@@ -131,7 +139,7 @@ nav a {
 }
 
 /* responsive for iPhone */
-@media only screen and (max-width: 550px) {
+@media (max-width: 550px) {
     
     /* header bar */
     .logo-text {
@@ -207,7 +215,7 @@ nav a {
 }
 
 /* Responsive for iPad */
-@media only screen and (min-width: 551px) and (max-width: 768px) {
+@media (min-width: 551px) and (max-width: 768px) {
     
     /* header bar */
     .logo-text {

@@ -4,7 +4,7 @@ body {
     font-family: 'ABeeZee', sans-serif;
 }
 
-/* header bar */
+/* Header bar */
 .top-bar {
     display: flex;
     position: sticky;
@@ -35,10 +35,18 @@ body {
     font-weight: bold;
     text-decoration: none;
     padding: 0 40px;
-    
 }
 
-/* picture & name of recipe */
+.link-to-pages a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+#page-logo:hover {
+    opacity: 0.6;
+}
+
+/* Picture & name of recipe */
 .recipe-image {
     margin: 30px 0;
     text-align: center;
@@ -56,9 +64,11 @@ h1 {
 
 h1 + p {
     text-align: center;
+    width: 50%;
+    margin: 20px auto;
 }
 
-/* cooking contents */
+/* Cooking contents */
 .main-part {
     display: flex;
     justify-content: space-around;
@@ -73,7 +83,7 @@ h1 + p {
     padding-left: 10px;
 }
 
-/* first column of cooking contents */
+/* First column of cooking contents */
 .clock-pic img {
     border-radius: 15px;
 }
@@ -102,12 +112,12 @@ h1 + p {
     padding-right: 15px;
 }
 
-/* second column of cooking contents */
+/* Second column of cooking contents */
 .box-2 img {
     border-radius: 15px;
 }
 
-/* third column of cooking contents */
+/* Third column of cooking contents */
 ol li {
     padding: 2px;
 } 
@@ -139,8 +149,8 @@ ol li {
 
 .container-1 .edit {
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 360px;
+    top: 70px;
     font-size: 16px;
     color: #666;
     font-weight: 500;
@@ -214,20 +224,20 @@ form .btn {
 form .btn button {
     height: 100%;
     width: 50%;
-    border: 1px solid #444;
+    border: 0;
     border-radius: 10px;
     outline: none;
-    background: #222;
-    color: #999;
+    background-color: #345995;
+    color: white;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    transform: all 0.3s ease;
+    transition: all 0.3s ease-out;
 }
 
 form .btn button:hover {
-    background: #1e6cac;
-    color: black;
+    background-color: #F46036;
+    transition: all 0.3s ease-out;
 }
 
 /* Sharing */
@@ -296,10 +306,10 @@ nav a {
     color: rgb(26, 18, 18);
 }
 
-/* responsive for iPhone */
-@media only screen and (max-width: 550px) {
+/* Responsive for iPhone */
+@media (max-width: 550px) {
     
-    /* header bar */
+    /* Header bar */
     .logo-text {
         width: 100%;
     }
@@ -357,9 +367,9 @@ nav a {
 } 
 
 /* Responsive for iPad */
-@media only screen and (min-width: 551px) and (max-width: 768px) {
+@media (min-width: 551px) and (max-width: 768px) {
     
-    /* header bar */
+    /* Header bar */
     .logo-text {
         width: 100%;
     }
