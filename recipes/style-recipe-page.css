@@ -9,7 +9,7 @@ body {
     display: flex;
     position: sticky;
     top: 0px;
-    background-image:url(/images/background\ light.jpg) ;
+    background-image:url(./image1/background\ light.jpg) ;
     height: 70px;
     align-items: center;
 }
@@ -79,7 +79,7 @@ h1 + p {
     border-radius: 15px;
     flex-basis: 30%;
     margin: 40px 0;
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./image1/background\ light.jpg);
     padding-left: 10px;
 }
 
@@ -126,7 +126,7 @@ ol li {
 .rating-sharing {
     display: flex;
     align-items: center;
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./image1/background\ light.jpg);
 }
 
 /* Rating */

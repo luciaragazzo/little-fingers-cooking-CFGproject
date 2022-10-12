@@ -182,7 +182,7 @@ h4 {
 
 /* Subscribe part*/
 .subscribe {
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./images/background\ light.jpg);
     padding: 30px 0 60px 15px;
     margin-top: 30px;
 }
@@ -257,7 +257,7 @@ nav a {
     display: flex;
     position: sticky;
     top: 0px;
-    background-image:url(/images/background\ light.jpg) ;
+    background-image:url(./images/background\ light.jpg) ;
     height: 70px;
     align-items: center;
     }
@@ -323,7 +323,7 @@ nav a {
     }
 
     #main-part {
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./images/background\ light.jpg);
         padding: 10px 0 25px 0;
         border-radius: 15px;
     }
@@ -348,7 +348,7 @@ nav a {
     }
 
     .subscribe {
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./images/background\ light.jpg);
         padding: 30px 0 60px 50px;
         margin-top: 30px;
     }

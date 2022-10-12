@@ -9,7 +9,7 @@ body {
     display: flex;
     position: sticky;
     top: 0px;
-    background-image:url(/images/background\ light.jpg) ;
+    background-image:url(./image1/background\ light.jpg) ;
     height: 70px;
     align-items: center;
 }
@@ -50,7 +50,7 @@ body {
 .main-picture {
     border: 0.5px gainsboro solid;
     margin: 20px 0;
-    background-image: url(/images/header\ picture.jpg);
+    background-image: url(./image1/header\ picture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -110,7 +110,7 @@ body {
 footer{
     text-align: center;
     margin-top: 20px;
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./image1/background\ light.jpg);
 }
 
 nav a {
@@ -163,7 +163,7 @@ nav a {
     /* Picture with "How to make it fun" */
     .main-picture {
         height: 100%;
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./image1/header\ picture.jpg);
     }
 
     .main-picture h1 {
@@ -229,7 +229,7 @@ nav a {
     /* Picture with "How to make it fun" */
     .main-picture {
         height: 100%;
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./image1/header\ picture.jpg);
     }
 
     .main-picture h1 {
