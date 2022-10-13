@@ -8,6 +8,7 @@ let typeName = document.getElementById('recipe-type');
 let recipePlace = typeName.innerText;
 
 
+typeName.innerText = "BREAKFAST FUN";
 
 const nextSlide = () => {
     // Get current class
