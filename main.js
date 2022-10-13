@@ -9,6 +9,10 @@ let recipePlace = typeName.innerText;
 
 
 typeName.innerText = "BREAKFAST FUN";
+typeName.addEventListener('click', e => {
+    e.preventDefault();
+    location.href = '#breakfast-part';
+})
 
 const nextSlide = () => {
     // Get current class
