@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style-forparents.css">
+    <title>For parents</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&family=Combo&family=Dancing+Script:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="top-bar">
+        <div class="logo">
+            <a href="../index.html" id="page-logo"><img src="./images/cooking with kid logo.jpg" alt="kids decoration" width="75"></a>
+        </div>
+    
+        <div class="logo-text">
+            <p>Little fingers cooking</p>
+        </div>
+    
+        <div class="link-to-pages">
+            <nav>
+                <a href="../index.html">The recipes</a>
+                <a href="">For parents</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main picture -->
+    <div class="main-picture">
+        <h1>FOR PARENTS</h1>
+    </div>
+    
+    <!-- Useful links -->
+    <h2>Useful links</h2>
+    <div class="useful-links"> 
+        <div class="links">
+        <ul>
+            <li>
+                <a href="./recipes/article1.html">How to make it fun</a>
+            </li>
+            <li>
+                <a href="./recipes/article2.html">Cooking tips</a>
+            </li>
+            <li>
+                <a href="./recipes/article3.html">Ingredient tips</a>
+            </li>
+        </ul>
+        </div>
+        <div class="picture">
+            <img src="/images/picture for useful links.jpg" alt="kid cooking with dad" width="500"> 
+        </div>
+    </div>
+    
+    <!-- Form for sharing recipes -->
+    <h2>Share us your own recipes</h2>
+    <div class="share-recipes">
+        <form>
+            <div class="all-input">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="recipe" required>
+                    <label for="recipe"><i class="fas fa-utensils"></i> Name of Recipe</label>
+                </div>
+                <div class="input-group">
+                    <input type="file" id="file" accept="image/*">
+                    <label for="file"><i class="fas fa-image"></i> Add Your Photo</label>
+                </div>
+                <div class="input-group">
+                    <select>
+                        <option value="title">Type of Recipe</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="snack">Snack</option>
+                        <option value="dinner">Dinner</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <textarea id="ingredients" rows="8" required></textarea>
+                    <label for="ingredients">Ingredients</label>
+                </div> 
+                <div class="input-group">
+                    <textarea id="instruction" rows="10" required></textarea>
+                    <label for="instruction">How To Cook</label>
+                </div>
+            </div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT</button>
+            <div class="after-submit">
+                <div class="text">Thanks for sharing your recipe with us!</div>
+            </div>         
+        </form> 
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="#" class="fab fa-facebook-square"></a>
+            <a href="#" class="fab fa-instagram-square"></a>
+            <a href="#" class="fab fa-twitter-square"></a>
+            <a href="#" class="fas fa-envelope"></a>
+        </nav>
+        <div>&copy;Copyright 2022 coding st@rs</div> <br>
+    </footer>
+
+    <script src="./forparents.js"></script>
+</body>
+</html>

@@ -110,10 +110,11 @@ if(auto) {
 };
 
 // Make subscribe button work
-const subscribe = document.getElementById('sign-up');
+const subscribe = document.querySelector("form");
 const text = document.getElementById('after-subscribe');
 subscribe.addEventListener('click', e => {
     e.preventDefault();
+    subscribe.style.display = "none";
     text.style.display = "block"; 
     return false;
 });

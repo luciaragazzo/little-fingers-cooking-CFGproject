@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+/* header bar */
+.top-bar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-image:url(./images/background\ light.jpg) ;
+    height: 70px;
+    align-items: center;
+}
+
+.logo-text {
+    flex: 1;
+    width: 100px;
+}
+
+.logo-text p {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(212, 5, 74);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.link-to-pages a { 
+    font-family: 'Dancing Script', cursive;
+    color: rgb(212, 5, 74);
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 40px;
+    transition: 0.2s;
+}
+
+.link-to-pages a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+#page-logo:hover {
+    opacity: 0.6;
+}
+
+/* Main picture */
+.main-picture {
+    border: 0.5px gainsboro solid;
+    margin: 20px 0;
+    background-image: url(/images/header\ picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-picture h1 {
+    margin-top: 320px;
+    text-align: center; 
+}
+
+h2 {
+    margin: 40px 0 40px 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+/* Useful links */
+.useful-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 0 50px;
+}
+
+li {
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(20, 20, 212);
+    text-decoration: underline;
+}
+
+/* Form for sharing recipes */
+.share-recipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(./images/background\ light.jpg);
+    padding-bottom: 20px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+} 
+
+.input-group {
+    margin: 40px 0;
+    position: relative;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #333;
+    color: #333;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #333;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button {
+    padding: 10px 0;
+    color: #333;
+    outline: none;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;  
+}
+
+.after-submit {
+    display: none;
+}
+
+.text {
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(./image1/background\ light.jpg);
+}
+
+nav a {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.fa-facebook-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-instagram-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-twitter-square {
+    background: white;
+    color: rgb(26, 18, 18);
+}
+
+.fa-envelope {
+    background: white;
+    color: rgb(26, 18, 18);
+}

@@ -84,7 +84,6 @@ body {
 .content a:hover {
     color: #333;
     background-color: #fff;
-    transition: all 0.3s ease-out;
 }
 
 .buttons button#next {
@@ -107,12 +106,12 @@ body {
     padding: 13px 15px;
     border-radius: 50%;
     outline: none;
+    transition: all 0.3s ease-out;
 }
 
 .buttons button:hover {
     background-color: #fff;
     color: #333;
-    transition: all 0.3s ease-out;
 } 
 
 /* Background images for slides */
@@ -212,7 +211,6 @@ h4 {
 
 .subscribe input[type=submit]:hover {
     background-color: #F46036;
-    transition: all 0.3s ease-out;
 }
 
 #after-subscribe {
