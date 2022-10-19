@@ -1,0 +1,287 @@
+body {
+  font-size: 18px;
+  color: black;
+  background-color: whitesmoke; /*maybe change with #61122f*/
+  font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    text-align: center; 
+    margin: 30px auto;
+    font-family: 'Dancing Script', cursive; 
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+
+
+
+/** HEADER **/
+#header-nav {
+  background-image: url(../images/background\ light.jpg);
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/m_cooking\ with\ kid\ logo.jpg') no-repeat;
+  width: 100px;
+  height: 150px;
+  margin: 10px 15px 10px 10;
+}
+#about {
+    text-align: center; 
+    width: 70%;
+    margin: 20px auto;
+}
+.gomitolo{
+border-radius: 40% ;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  
+
+}
+
+.navbar-brand h1 { /* Cook with love */
+  font-family: 'Dancing Script', cursive;
+  color: #61122f;
+  font-size: 1.5em;
+  text-transform: italic;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* and fun */
+  color: #000;
+  text-transform: italic;
+  font-size: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* Call us */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header  .icon-bar{
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/cooking\ with\ kid\ logo.jpg') no-repeat;
+    width: 50%;
+    height: 50%;
+    margin: 5px 5px 5px 0;
+  }
+}
+  /* End Header */
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.container .jumbotron {
+  background: url('https://www.buttalapasta.it/wp-content/uploads/2019/12/dolci-natale-bambini-1024x681.jpg') no-repeat;
+  height: 558px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/contorno-menu-natale-bambini-360x250.png') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/halloween.png') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: italic;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* End Home Page */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+/* Home Page */
+.container .jumbotron {
+  background: url('https://www.buttalapasta.it/wp-content/uploads/2019/12/dolci-natale-bambini-1024x681.jpg') no-repeat;
+  height: 432px;
+}
+}
+/* End Home Page */
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/* Header */
+.navbar-brand {
+  padding-top: 10px;
+  height: 80px;
+}
+.navbar-brand h1 { //* Cook with love */
+  padding-top: 10px;
+  font-size: 5vw; /* 1vw = 1% of viewport width */
+}
+
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+#call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+#xs-deliver {
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+/* End Header */
+
+/* Home Page */
+.container .jumbotron {
+  margin-top: 30px;
+  padding: 0;
+}
+
+}
+
+/* END HOME PAGE */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Cook with love  */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+
+
+ 
