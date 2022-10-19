@@ -205,7 +205,7 @@ ol li {
     color: #f1d03b;
     top: 0;
     opacity: 0;
-    transition: .5s;
+    transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
 
