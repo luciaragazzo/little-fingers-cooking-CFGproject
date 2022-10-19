@@ -8,6 +8,11 @@ let typeName = document.getElementById('recipe-type');
 let recipePlace = typeName.innerText;
 
 
+typeName.innerText = "BREAKFAST FUN";
+typeName.addEventListener('click', e => {
+    e.preventDefault();
+    location.href = '#breakfast-part';
+})
 
 const nextSlide = () => {
     // Get current class
@@ -105,10 +110,13 @@ if(auto) {
 };
 
 // Make subscribe button work
-const subscribe = document.getElementById('sign-up');
+const email = document.getElementById('email');
 const text = document.getElementById('after-subscribe');
-subscribe.addEventListener('click', e => {
+const signUp = document.getElementById('sign-up')
+signUp.addEventListener('click', e => {
     e.preventDefault();
+    email.style.display = "none";
     text.style.display = "block"; 
+    signUp.style.display = "none";
     return false;
 });

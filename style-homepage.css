@@ -14,7 +14,7 @@ body {
 
 .logo-text p {
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 20px;
     font-weight: bold;
     width: 100px;
@@ -23,7 +23,7 @@ body {
 
 .link-to-pages a { 
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 23px;
     font-weight: bold;
     text-decoration: none;
@@ -33,7 +33,6 @@ body {
 
 .link-to-pages a:hover {
     text-decoration: underline;
-    color: #333;
 }
 
 #page-logo:hover {
@@ -84,7 +83,6 @@ body {
 .content a:hover {
     color: #333;
     background-color: #fff;
-    transition: all 0.3s ease-out;
 }
 
 .buttons button#next {
@@ -107,25 +105,25 @@ body {
     padding: 13px 15px;
     border-radius: 50%;
     outline: none;
+    transition: all 0.3s ease-out;
 }
 
 .buttons button:hover {
     background-color: #fff;
     color: #333;
-    transition: all 0.3s ease-out;
 } 
 
 /* Background images for slides */
 .slide:nth-child(1) {
-    background: url(/images/slide1.jpg) no-repeat center top/cover;
+    background: url(./images/slide1.jpg) no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-    background: url(/images/slide2.jpg) no-repeat center center/cover;
+    background: url(./images/slide2.jpg) no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-    background: url(/images/slide3.jpg) no-repeat center center/cover;
+    background: url(./images/slide3.jpg) no-repeat center center/cover;
 }
 
 /* Intro part */
@@ -182,7 +180,7 @@ h4 {
 
 /* Subscribe part*/
 .subscribe {
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./images/background\ light.jpg);
     padding: 30px 0 60px 15px;
     margin-top: 30px;
 }
@@ -212,7 +210,6 @@ h4 {
 
 .subscribe input[type=submit]:hover {
     background-color: #F46036;
-    transition: all 0.3s ease-out;
 }
 
 #after-subscribe {
@@ -257,14 +254,14 @@ nav a {
     display: flex;
     position: sticky;
     top: 0px;
-    background-image:url(/images/background\ light.jpg) ;
+    background-image:url(./images/background\ light.jpg);
     height: 70px;
     align-items: center;
     }
 
     .link-to-pages a { 
         font-family: 'Dancing Script', cursive;
-        color: rgb(212, 5, 74);
+        color: #333;
         font-size: 23px;
         font-weight: bold;
         text-decoration: none;
@@ -323,7 +320,7 @@ nav a {
     }
 
     #main-part {
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./images/background\ light.jpg);
         padding: 10px 0 25px 0;
         border-radius: 15px;
     }
@@ -348,7 +345,7 @@ nav a {
     }
 
     .subscribe {
-        background-image: url(/images/background\ light.jpg);
+        background-image: url(./images/background\ light.jpg);
         padding: 30px 0 60px 50px;
         margin-top: 30px;
     }

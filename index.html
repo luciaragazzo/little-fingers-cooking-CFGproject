@@ -1,147 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="style-homepage.css" />
     <title>Little fingers cooking</title>
-    <link rel="stylesheet" href="./css/style-homepage.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&family=Combo&family=Dancing+Script:wght@700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300&family=Combo&family=Dancing+Script:wght@700&family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--Header-->
-   <header class="top-bar">
+    <header class="top-bar">
+      <div class="logo">
+        <a href="index.html" id="page-logo"
+          ><img src="./images/cooking with kid logo.jpg" alt="" width="75"
+        /></a>
+      </div>
 
-    <div class="logo">
-        <a href="./html/homepage.html" id="page-logo"><img src="./images/cooking with kid logo.jpg" alt="" width="75"></a>
-    </div>
-
-    <div class="logo-text">
+      <div class="logo-text">
         <p>Little fingers cooking</p>
-    </div>
+      </div>
 
-    <div class="link-to-pages">
+      <div class="link-to-pages">
         <nav>
-            <a href="./html/homepage.html">The recipes</a>
-            <a href="">For parents</a>
+          <a href="index.html">The recipes</a>
+          <a href="forparents.html">For parents</a>
         </nav>
+      </div>
+    </header>
+
+    <!-- Picture slides -->
+    <div class="slider">
+      <div class="slide current"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
     </div>
 
-   </header>
+    <div class="content">
+      <a id="recipe-type" href=""></a>
+    </div>
 
-   <!-- Picture slides -->
-   <div class="slider">
-    <div class="slide current"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
-   </div>
+    <div class="buttons">
+      <button id="prev"><i class="fas fa-arrow-left"></i></button>
+      <button id="next"><i class="fas fa-arrow-right"></i></button>
+    </div>
 
-   <div class="content">
-    <a id="recipe-type" href=""></a>
-   </div>
-
-   <div class="buttons">
-    <button id="prev"><i class="fas fa-arrow-left"></i></button>
-    <button id="next"><i class="fas fa-arrow-right"></i></button>
-   </div>
-
-   <!-- Intro part -->
-   <div class="intro">
-        <h1>LET'S START OUR COOKING ADVENTURE!</h1>
-        <p id="about">Cooking with, rather than for, toddlers needs quite a bit of preparation, it takes longer,  makes more mess and can be a bit stressful. The key to successfully cooking with very young children is to keep things simple and the favourite thing about cooking with toddlers is seeing their faces when they realise what they've achieved.</p>
-   </div>
+    <!-- Intro part -->
+    <div class="intro">
+      <h1>LET'S START OUR COOKING ADVENTURE!</h1>
+      <p id="about">
+        Cooking with, rather than for, toddlers needs quite a bit of
+        preparation, it takes longer, makes more mess and can be a bit
+        stressful. The key to successfully cooking with very young children is
+        to keep things simple and the favourite thing about cooking with
+        toddlers is seeing their faces when they realise what they've achieved.
+      </p>
+    </div>
 
     <!-- Main part with recipes-->
     <h1>THE RECIPES</h1>
     <div id="main-part">
-        <div id="breakfast-part"></div>
-        <h2>Breakfast fun</h2>
-        <div class="recipe-content">
-            <div class="recipe">
-                <a href="./html/recipe1.html"><img class="recipe-picture" src="./images/baked pancake.jpg" alt="Baked pancake"></a>
-                <h4>BAKED PANCAKE</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe2.html"><img class="recipe-picture" src="./images/blueberry yoghurt muffins.jpg" alt="Blueberry muffins"></a>
-                <h4>BLUEBERRY YOGHURT MUFFINS</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe3.html"><img class="recipe-picture" src="./images/overnight oats.jpg" alt="Blueberry oats"></a>
-                <h4>OVERNIGHT OATS</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe4.html"><img class="recipe-picture" src="./images/baked eggs benedict.jpg" alt="Egg benedict"></a>
-                <h4>BAKED EGGS BENEDICT</h4>
-            </div>
+      <div id="breakfast-part"></div>
+      <h2>Breakfast fun</h2>
+      <div class="recipe-content">
+        <div class="recipe">
+          <a href="./recipes/recipe1.html"
+            ><img
+              class="recipe-picture"
+              src="./images/baked pancake.jpg"
+              alt="Baked pancake"
+          /></a>
+          <h4>BAKED PANCAKE</h4>
         </div>
-        <div id="lunch-part"></div>
-        <h2>Lunch for us</h2>
-        <div class="recipe-content">
-            <div class="recipe">
-                <a href="./html/recipe-lunch1.html"><img class="recipe-picture" src="./images/tuna mayo pitta pockets.jpg" alt="Pitta pockets"></a>
-                <h4>TUNA MAYO PITTA POCKETS</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-lunch2.html"><img class="recipe-picture" src="./images/pirate treasure salad.jpg" alt="Salad"></a>
-                <h4>PIRATE TREASURE SALAD</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-lunch3.html"><img class="recipe-picture" src="./images/tomato salsa bruschetta.jpg" alt="Tomato salsa bruschetta"></a>
-                <h4>TOMATO SALSA BRUSCHETTA</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-lunch4.html"><img class="recipe-picture" src="./images/frittata.jpg" alt="Frittata"></a>
-                <h4>FRITTATA</h4>
-            </div>
+        <div class="recipe">
+          <a href="./recipes/recipe2.html"
+            ><img
+              class="recipe-picture"
+              src="./images/blueberry yoghurt muffins.jpg"
+              alt="Blueberry muffins"
+          /></a>
+          <h4>BLUEBERRY YOGHURT MUFFINS</h4>
         </div>
-        <div></div>
-        <div id="snack-part"></div>
-        <h2>Snack time</h2>
-        <div class="recipe-content">
-            <div class="recipe">
-                <a href="./html/recipe-snack1.html"><img class="recipe-picture" src="./images/pitta chips.jpg" alt="Pitta chips"></a>
-                <h4>PITTA CHIPS</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-snack2.html"><img class="recipe-picture" src="./images/egg-free cookies.jpg" alt="Cookies"></a>
-                <h4>EGG-FREE COOKIES</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-snack3.html"><img class="recipe-picture" src="./images/carrot cakes.jpg" alt="Carrot cakes"></a>
-                <h4>CARROT CAKES</h4>
-            </div>
-            <div class="recipe">
-                <a href="./html/recipe-snack4.html"><img class="recipe-picture" src="./images/mini scones.jpg" alt="Mini scones"></a>
-                <h4>MINI SCONES</h4>
-            </div>
+        <div class="recipe">
+          <a href="./recipes/recipe3.html"
+            ><img
+              class="recipe-picture"
+              src="./images/overnight oats.jpg"
+              alt="Blueberry oats"
+          /></a>
+          <h4>OVERNIGHT OATS</h4>
         </div>
+        <div class="recipe">
+          <a href="./recipes/recipe4.html"
+            ><img
+              class="recipe-picture"
+              src="./images/baked eggs benedict.jpg"
+              alt="Egg benedict"
+          /></a>
+          <h4>BAKED EGGS BENEDICT</h4>
+        </div>
+      </div>
+      <div id="lunch-part"></div>
+      <h2>Lunch for us</h2>
+      <div class="recipe-content">
+        <div class="recipe">
+          <a href="./recipes/recipe-lunch1.html"
+            ><img
+              class="recipe-picture"
+              src="./images/tuna mayo pitta pockets.jpg"
+              alt="Pitta pockets"
+          /></a>
+          <h4>TUNA MAYO PITTA POCKETS</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-lunch2.html"
+            ><img
+              class="recipe-picture"
+              src="./images/pirate treasure salad.jpg"
+              alt="Salad"
+          /></a>
+          <h4>PIRATE TREASURE SALAD</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-lunch3.html"
+            ><img
+              class="recipe-picture"
+              src="./images/tomato salsa bruschetta.jpg"
+              alt="Tomato salsa bruschetta"
+          /></a>
+          <h4>TOMATO SALSA BRUSCHETTA</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-lunch4.html"
+            ><img
+              class="recipe-picture"
+              src="./images/frittata.jpg"
+              alt="Frittata"
+          /></a>
+          <h4>FRITTATA</h4>
+        </div>
+      </div>
+      <div></div>
+      <div id="snack-part"></div>
+      <h2>Snack time</h2>
+      <div class="recipe-content">
+        <div class="recipe">
+          <a href="./recipes/recipe-snack1.html"
+            ><img
+              class="recipe-picture"
+              src="./images/pitta chips.jpg"
+              alt="Pitta chips"
+          /></a>
+          <h4>PITTA CHIPS</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-snack2.html"
+            ><img
+              class="recipe-picture"
+              src="./images/egg-free cookies.jpg"
+              alt="Cookies"
+          /></a>
+          <h4>EGG-FREE COOKIES</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-snack3.html"
+            ><img
+              class="recipe-picture"
+              src="./images/carrot cakes.jpg"
+              alt="Carrot cakes"
+          /></a>
+          <h4>CARROT CAKES</h4>
+        </div>
+        <div class="recipe">
+          <a href="./recipes/recipe-snack4.html"
+            ><img
+              class="recipe-picture"
+              src="./images/mini scones.jpg"
+              alt="Mini scones"
+          /></a>
+          <h4>MINI SCONES</h4>
+        </div>
+      </div>
     </div>
 
     <!-- Subscribe part -->
     <div class="subscribe">
-        <h3>Get regular recipe inspiration straight to your inbox!</h3>
-        <form action="/subscribe" method="post">
-            <input  name="email" type="text" placeholder="Enter your email address">
-            <input id="sign-up" type="submit" value="SIGN UP">
-        <p id="after-subscribe">Thanks for subscribing your email!</p>
+      <h3>Get regular recipe inspiration straight to your inbox!</h3>
+      <form action="/subscribe" method="post">
+        <input id="email" type="text" placeholder="Enter your email address" />
+        <input id="sign-up" type="submit" value="SIGN UP" />
+      </form>
+      <p id="after-subscribe">Thanks for subscribing your email!</p>
     </div>
 
     <!-- Footer -->
-   <footer>
-    <nav>
+    <footer>
+      <nav>
         <a href="#" class="fab fa-facebook-square"></a>
         <a href="#" class="fab fa-instagram-square"></a>
         <a href="#" class="fab fa-twitter-square"></a>
         <a href="#" class="fas fa-envelope"></a>
-    </nav>
-    <div>&copy;Copyright 2022 coding st@rs</div>
-   </footer>
+      </nav>
+      <div>&copy;Copyright 2022 coding st@rs</div>
+    </footer>
 
-   <script src="./js/main.js"></script>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>

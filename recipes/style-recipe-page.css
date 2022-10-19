@@ -9,7 +9,7 @@ body {
     display: flex;
     position: sticky;
     top: 0px;
-    background-image:url(/images/background\ light.jpg) ;
+    background-image:url(./image1/background\ light.jpg) ;
     height: 70px;
     align-items: center;
 }
@@ -21,7 +21,7 @@ body {
 
 .logo-text p {
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 20px;
     font-weight: bold;
     width: 100px;
@@ -30,7 +30,7 @@ body {
 
 .link-to-pages a { 
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 23px;
     font-weight: bold;
     text-decoration: none;
@@ -39,7 +39,6 @@ body {
 
 .link-to-pages a:hover {
     text-decoration: underline;
-    color: #333;
 }
 
 #page-logo:hover {
@@ -79,7 +78,7 @@ h1 + p {
     border-radius: 15px;
     flex-basis: 30%;
     margin: 40px 0;
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./image1/background\ light.jpg);
     padding-left: 10px;
 }
 
@@ -126,7 +125,7 @@ ol li {
 .rating-sharing {
     display: flex;
     align-items: center;
-    background-image: url(/images/background\ light.jpg);
+    background-image: url(./image1/background\ light.jpg);
 }
 
 /* Rating */
@@ -205,7 +204,7 @@ ol li {
     color: #f1d03b;
     top: 0;
     opacity: 0;
-    transition: .5s;
+    transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
 }
 
