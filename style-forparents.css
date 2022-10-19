@@ -4,16 +4,6 @@ body {
     font-family: 'ABeeZee', sans-serif;
 }
 
-/* header bar */
-/* .top-bar {
-    display: flex;
-    position: sticky;
-    top: 0px;
-    background-image:url(./images/background\ light.jpg) ;
-    height: 70px;
-    align-items: center;
-} */
-
 .logo-text {
     flex: 1;
     width: 100px;
@@ -21,7 +11,7 @@ body {
 
 .logo-text p {
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 20px;
     font-weight: bold;
     width: 100px;
@@ -30,7 +20,7 @@ body {
 
 .link-to-pages a { 
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 23px;
     font-weight: bold;
     text-decoration: none;
@@ -41,7 +31,6 @@ body {
 
 .link-to-pages a:hover {
     text-decoration: underline;
-    color: #333;
 }
 
 #page-logo:hover {
@@ -68,12 +57,6 @@ h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
 }
-
-/* Useful links */
-/* .useful-links {
-    display: flex;
-    justify-content: space-around;
-} */
 
 ul {
     padding: 0 50px;
@@ -213,7 +196,7 @@ nav a {
 
     .link-to-pages a { 
         font-family: 'Dancing Script', cursive;
-        color: rgb(212, 5, 74);
+        color: #333;
         font-size: 23px;
         font-weight: bold;
         text-decoration: none;

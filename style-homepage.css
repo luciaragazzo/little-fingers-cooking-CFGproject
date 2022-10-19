@@ -14,7 +14,7 @@ body {
 
 .logo-text p {
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 20px;
     font-weight: bold;
     width: 100px;
@@ -23,7 +23,7 @@ body {
 
 .link-to-pages a { 
     font-family: 'Dancing Script', cursive;
-    color: rgb(212, 5, 74);
+    color: #333;
     font-size: 23px;
     font-weight: bold;
     text-decoration: none;
@@ -33,7 +33,6 @@ body {
 
 .link-to-pages a:hover {
     text-decoration: underline;
-    color: #333;
 }
 
 #page-logo:hover {
@@ -262,7 +261,7 @@ nav a {
 
     .link-to-pages a { 
         font-family: 'Dancing Script', cursive;
-        color: rgb(212, 5, 74);
+        color: #333;
         font-size: 23px;
         font-weight: bold;
         text-decoration: none;
